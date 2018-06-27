@@ -3,6 +3,6 @@ Student Form
   <label>First Name</label>
   <%= text_field_tag :first_name, @student.first_name if @student %>
   <label>Last Name</label>
-  <%= text_area_tag :last_name @student.first_name if @student %>
+  <%= text_area_tag :last_name, @student.last_name if @student %>
   <%= submit_tag "Submit Student" %>
 <%
